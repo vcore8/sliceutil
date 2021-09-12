@@ -50,17 +50,17 @@ func sliceDifference(slice1 []string, slice2 []string) []string {
 }
 
 
-// merge 2 slices
-func Merge(x, y interface{}) interface{} {
+// merge 2 slices of strings
+func Merge(x, y []string]) interface{} {
 	return append(x, y)
 }
 
 
-func Count(x interface{}) int {
+func Count(x []string]) int {
 	return x.Len()
 }
 
-func Len(x interface{}) int{
+func Len(x []string]) int{
 	return len(x)
 }
 
