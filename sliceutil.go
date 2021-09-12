@@ -51,7 +51,7 @@ func sliceDifference(slice1 []string, slice2 []string) []string {
 
 
 // merge 2 slices of strings
-func Merge(x []string, y []string]) []string] {
+func Merge(x []string, y []string]) []string {
 	return append(x, y)
 }
 
