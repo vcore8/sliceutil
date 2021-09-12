@@ -58,13 +58,3 @@ func Merge(x []string, y []string) []string {
 	return z
 }
 
-
-func Count(x []string) int {
-	return x.Len()
-}
-
-func Len(x []string) int{
-	return len(x)
-}
-
-
